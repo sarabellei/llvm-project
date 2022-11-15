@@ -22,7 +22,9 @@ Furthermore, some of Cling’s features are tailored specifically to work on `RO
 How does Clang-REPL modify the compiling cycle
 ==============================================
 
-INSERT IMAGE HERE
+.. image:: Clang-REPL_design.png
+   :align: center
+   :alt: Clang REPL design
 
 Clang-REPL compiler pipeline is represented by 8 phases:
 

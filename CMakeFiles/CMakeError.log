@@ -1,0 +1,402 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: arm64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+Determining if the include file link.h exists failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ae660/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ae660.dir/build.make CMakeFiles/cmTC_ae660.dir/build
+Building C object CMakeFiles/cmTC_ae660.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_ae660.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_ae660.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_ae660.dir/CheckIncludeFile.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'link.h' file not found
+#include <link.h>
+         ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ae660.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_ae660/fast] Error 2
+
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9682b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9682b.dir/build.make CMakeFiles/cmTC_9682b.dir/build
+Building C object CMakeFiles/cmTC_9682b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_9682b.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_9682b.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_9682b.dir/CheckIncludeFile.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'valgrind/valgrind.h' file not found
+#include <valgrind/valgrind.h>
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9682b.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_9682b/fast] Error 2
+
+
+
+Determining if the include file CrashReporterClient.h exists failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d725f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d725f.dir/build.make CMakeFiles/cmTC_d725f.dir/build
+Building C object CMakeFiles/cmTC_d725f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_d725f.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_d725f.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_d725f.dir/CheckIncludeFile.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'CrashReporterClient.h' file not found
+#include <CrashReporterClient.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d725f.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_d725f/fast] Error 2
+
+
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f75ff/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f75ff.dir/build.make CMakeFiles/cmTC_f75ff.dir/build
+Building C object CMakeFiles/cmTC_f75ff.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_f75ff.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_f75ff.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_f75ff.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f75ff
+/opt/homebrew/Cellar/cmake/3.24.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f75ff.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f75ff.dir/CheckFunctionExists.c.o -o cmTC_f75ff  -lrt 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f75ff] Error 1
+make: *** [cmTC_f75ff/fast] Error 2
+
+
+
+Determining if the function pfm_initialize exists in the pfm failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_280de/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_280de.dir/build.make CMakeFiles/cmTC_280de.dir/build
+Building C object CMakeFiles/cmTC_280de.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pfm_initialize -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_280de.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_280de.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_280de.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_280de
+/opt/homebrew/Cellar/cmake/3.24.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_280de.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pfm_initialize -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_280de.dir/CheckFunctionExists.c.o -o cmTC_280de  -lpfm 
+ld: library not found for -lpfm
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_280de] Error 1
+make: *** [cmTC_280de/fast] Error 2
+
+
+
+Determining if the lseek64 exist failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e4e79/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e4e79.dir/build.make CMakeFiles/cmTC_e4e79.dir/build
+Building C object CMakeFiles/cmTC_e4e79.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_LARGEFILE64_SOURCE  -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_e4e79.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e4e79.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e4e79.dir/CheckSymbolExists.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9:19: error: use of undeclared identifier 'lseek64'; did you mean 'lseek'?
+  return ((int*)(&lseek64))[argc];
+                  ^~~~~~~
+                  lseek
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/unistd.h:465:8: note: 'lseek' declared here
+off_t    lseek(int, off_t, int);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e4e79.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_e4e79/fast] Error 2
+
+
+File /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallctl exist failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4db2a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4db2a.dir/build.make CMakeFiles/cmTC_4db2a.dir/build
+Building C object CMakeFiles/cmTC_4db2a.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_4db2a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_4db2a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_4db2a.dir/CheckSymbolExists.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc_np.h' file not found
+#include <malloc_np.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4db2a.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_4db2a/fast] Error 2
+
+
+File /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6afbb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6afbb.dir/build.make CMakeFiles/cmTC_6afbb.dir/build
+Building C object CMakeFiles/cmTC_6afbb.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_6afbb.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_6afbb.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6afbb.dir/CheckSymbolExists.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6afbb.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_6afbb/fast] Error 2
+
+
+File /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo2 exist failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1217f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1217f.dir/build.make CMakeFiles/cmTC_1217f.dir/build
+Building C object CMakeFiles/cmTC_1217f.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_1217f.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1217f.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1217f.dir/CheckSymbolExists.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1217f.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_1217f/fast] Error 2
+
+
+File /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo2
+  return ((int*)(&mallinfo2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_512fa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_512fa.dir/build.make CMakeFiles/cmTC_512fa.dir/build
+Building C object CMakeFiles/cmTC_512fa.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_512fa.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_512fa.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_512fa.dir/CheckSymbolExists.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'strerror_s'; did you mean 'strerror_r'?
+  return ((int*)(&strerror_s))[argc];
+                  ^~~~~~~~~~
+                  strerror_r
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/string.h:116:6: note: 'strerror_r' declared here
+int      strerror_r(int __errnum, char *__strerrbuf, size_t __buflen);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_512fa.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_512fa/fast] Error 2
+
+
+File /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_25114/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25114.dir/build.make CMakeFiles/cmTC_25114.dir/build
+Building C object CMakeFiles/cmTC_25114.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_STRUCT_STAT_ST_MTIM_TV_NSEC  -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_25114.dir/src.c.o -MF CMakeFiles/cmTC_25114.dir/src.c.o.d -o CMakeFiles/cmTC_25114.dir/src.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/src.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/src.c:7:36: error: no member named 'st_mtim' in 'struct stat'
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+               ~~~~~~~~~~~~~~~~~~  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_25114.dir/src.c.o] Error 1
+make: *** [cmTC_25114/fast] Error 2
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_303b8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_303b8.dir/build.make CMakeFiles/cmTC_303b8.dir/build
+Building C object CMakeFiles/cmTC_303b8.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_303b8.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_303b8.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_303b8.dir/CheckSymbolExists.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
+  return ((int*)(&__GLIBC__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_303b8.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_303b8/fast] Error 2
+
+
+File /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_236b3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_236b3.dir/build.make CMakeFiles/cmTC_236b3.dir/build
+Building CXX object CMakeFiles/cmTC_236b3.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default  -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wclass-memaccess -std=c++17 -MD -MT CMakeFiles/cmTC_236b3.dir/src.cxx.o -MF CMakeFiles/cmTC_236b3.dir/src.cxx.o.d -o CMakeFiles/cmTC_236b3.dir/src.cxx.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wclass-memaccess'; did you mean '-Wclass-varargs'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_236b3
+/opt/homebrew/Cellar/cmake/3.24.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_236b3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default  -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_236b3.dir/src.cxx.o -o cmTC_236b3 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LLVM_HAS_NOGLOBAL_CTOR_MUTEX failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dd272/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dd272.dir/build.make CMakeFiles/cmTC_dd272.dir/build
+Building CXX object CMakeFiles/cmTC_dd272.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DLLVM_HAS_NOGLOBAL_CTOR_MUTEX  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported -Werror=global-constructors  -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c++17 -MD -MT CMakeFiles/cmTC_dd272.dir/src.cxx.o -MF CMakeFiles/cmTC_dd272.dir/src.cxx.o.d -o CMakeFiles/cmTC_dd272.dir/src.cxx.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/src.cxx:3:21: error: declaration requires a global destructor [-Werror,-Wglobal-constructors]
+  static std::mutex TestGlobalCtorDtor;
+                    ^
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/src.cxx:4:31: error: declaration requires a global destructor [-Werror,-Wglobal-constructors]
+  static std::recursive_mutex TestGlobalCtorDtor2;
+                              ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_dd272.dir/src.cxx.o] Error 1
+make: *** [cmTC_dd272/fast] Error 2
+
+
+Source file was:
+
+  #include <mutex>
+  static std::mutex TestGlobalCtorDtor;
+  static std::recursive_mutex TestGlobalCtorDtor2;
+  int main() { (void)TestGlobalCtorDtor; (void)TestGlobalCtorDtor2; return 0;}
+  
+Determining if the __x86_64__ exist failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_93b46/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_93b46.dir/build.make CMakeFiles/cmTC_93b46.dir/build
+Building C object CMakeFiles/cmTC_93b46.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC  -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported  -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_93b46.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_93b46.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_93b46.dir/CheckSymbolExists.c.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__x86_64__'
+  return ((int*)(&__x86_64__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_93b46.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_93b46/fast] Error 2
+
+
+File /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __x86_64__
+  return ((int*)(&__x86_64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function shm_open exists in the rt failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5248c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5248c.dir/build.make CMakeFiles/cmTC_5248c.dir/build
+Building C object CMakeFiles/cmTC_5248c.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported -DCHECK_FUNCTION_EXISTS=shm_open  -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_5248c.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_5248c.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_5248c.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.24.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5248c
+/opt/homebrew/Cellar/cmake/3.24.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5248c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported -DCHECK_FUNCTION_EXISTS=shm_open  -Werror=unguarded-availability-new -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5248c.dir/CheckFunctionExists.c.o -o cmTC_5248c  -lrt 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5248c] Error 1
+make: *** [cmTC_5248c/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5177b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5177b.dir/build.make CMakeFiles/cmTC_5177b.dir/build
+Building CXX object CMakeFiles/cmTC_5177b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -Werror=unguarded-availability-new -wd654 -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -wd654 -std=c++17 -MD -MT CMakeFiles/cmTC_5177b.dir/src.cxx.o -MF CMakeFiles/cmTC_5177b.dir/src.cxx.o.d -o CMakeFiles/cmTC_5177b.dir/src.cxx.o -c /Users/sarabellei/documents/GitHub/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd654'
+clang: error: unknown argument: '-wd654'
+make[1]: *** [CMakeFiles/cmTC_5177b.dir/src.cxx.o] Error 1
+make: *** [cmTC_5177b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
